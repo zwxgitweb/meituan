@@ -1,0 +1,229 @@
+*{margin: 0;padding: 0;list-style: none;font-style: normal;box-sizing: border-box;text-decoration: none;}
+html, body, #wrap{
+    width: 100%;
+    height: 100%;
+}
+#wrap{
+    display: inline-flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 110px;
+    display: inline-flex;
+    padding: 0 10px;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+.header_icon {
+    flex: 3;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+.header_icon em{
+    width: 45px;
+    height: 45px;
+    background: #3BBAAB;
+    display: inline-flex;
+    justify-content: center;
+    color: #3BBAAB;
+    border-radius: 6px;
+    align-items: center;
+}
+.header_icon b{
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.header_icon strong{
+    color: #3BBAAB;
+    font-size: 38px;
+    padding: 0 12px;
+}
+.header_icon select{
+    border: 1px solid #999999;
+    color: #999999;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 12px;
+}
+.header_search{
+    flex: 7;
+    padding: 0 35px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.header_search p{
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+}
+.header_list{
+    display: inline-flex;
+}
+.header_list li{
+    color: #999999;
+    line-height: 2;
+    font-size: 12px;
+    padding: 0 6px;
+}
+.header_search input{
+    flex: 1;
+    border: 0;
+    border: 1px solid #3DBBAC;
+    width: 80%;
+    height: 40px;
+    border-radius: 3px 0 0 3px;
+}
+.header_search b{
+    width: 90px;
+    height: 40px;
+    background: #13D1BE;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 3px 3px 0;
+}
+.tit{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 12px;
+    font-size: 16px;
+    flex-wrap: 400;
+}
+.aside{
+    width: 100%;
+    background: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    color: #666;
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+}
+.aside p{
+    width: 100%;
+    line-height: 35px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.aside p:last-child{
+    border-bottom: 0;
+}
+.aside b{
+    padding-right: 30px;
+}
+.aside span{
+    position: relative;
+    margin-right: 30px;
+}
+.aside em{
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-top: 3px solid #666;
+    position: absolute;
+    top: 10px;
+}
+.section{
+    flex: 1;
+    overflow-y: scroll;
+    padding: 0 10px;
+    background: #F8F8F8;
+}
+.content{
+    margin-top: 16px;
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+}
+.show_tit{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #E5E5E5;
+    line-height: 50px;
+    padding: 0 10px;
+    background: #fff;
+}
+.show_tit span{
+    color: #666666;
+    font-size: 12px;
+    padding-right: 30px;
+}
+.show_tit .on{
+    color: #13D1BE;
+}
+.show{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #E5E5E5;
+    background: #fff;
+}
+.show dl{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+}
+dl dt{
+    width: 225px;
+    height: 125px;
+}
+dl h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+dl dd{
+    flex: 1;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.cir{
+    width: 100%;
+    line-height: 1.6;
+    color: #666666;
+}
+.cir em{
+    color: #FF9900;
+    font-size: 14px;
+}
+.cir span{
+    color: #FF9900;
+}
+address{
+    color: #666666;
+    line-height: 1.5;
+}
+address span{
+    color: #32CEBA;
+}
+.price{
+    color: #FF6600;
+    line-height: 2.5;
+    border-bottom: 1px #E5E5E5 dashed;
+}
+.show_list{
+    width: 100%;
+    color: #666666;
+    font-size: 12px;
+}
+.show_list li{
+    line-height: 2.2;
+}
+.show_list li em{
+    padding: 1px 2px;
+    color: #fff;
+    margin-right: 12px;
+}
+.show_list li:nth-child(1) em {
+    background: #20A2F1;
+}
+.show_list li:nth-child(2) em {
+    background: #EF7B2E;
+}
+.show_list li:nth-child(3) em {
+    background: #AD66D1;
+}
